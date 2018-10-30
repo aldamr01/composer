@@ -1,0 +1,26 @@
+{
+    "name": "amirrule/untag-nlp-helper",
+    "description": "PHP for helping students in untag university who got a task from mr. Fridy mandita",
+    "keywords": ["natural-language-processing", "nlp", "wrapper", "pos", "language", "tagger", "classifier", "ner","untag"],
+    "homepage": "https://github.com/aldamr01/untag-nlp-helper",
+    "type": "library",
+    "require": {
+        "php": "^7",
+        "patrickschur/language-detection": "^3",
+        "patrickschur/stanford-nlp-tagger": "^2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aldion amirrul",
+            "email": "aldionamirrul@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "WordTreeClassifier\\": "src/WordTreeClassifier"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
